@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.UploadActivity">
+
+    <EditText
+        android:id="@+id/commentText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="384dp"
+        android:ems="10"
+        android:hint="Comment"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="273dp"
+        android:onClick="upload"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/commentText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="161dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="selectedimage"
+        app:layout_constraintBottom_toTopOf="@+id/commentText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/selectimage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

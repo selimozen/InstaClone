@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.InstaClone" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#888585</item>
+        <item name="colorPrimaryVariant">#ECEBEF</item>
+        <item name="colorOnPrimary">#979393</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#DADDDD</item>
+        <item name="colorSecondaryVariant">#FFFFFF</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
